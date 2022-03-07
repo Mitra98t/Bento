@@ -20,13 +20,13 @@ const CONFIG = {
   greetingMorning: 'Good morning!',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Time to develop somthing!',
 
   // Layout
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'key', // Write here your API Key
+  weatherKey: '', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -65,9 +65,9 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'Amazon',
+      icon: 'shopping-bag',
+      link: 'https://amazon.com/',
     },
     {
       id: '4',
@@ -78,12 +78,12 @@ const CONFIG = {
     {
       id: '5',
       name: 'Reddit',
-      icon: 'glasses',
+      icon: 'shovel',
       link: 'https://reddit.com',
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
       link: 'https://www.youtube.com',
     },
@@ -157,24 +157,24 @@ const CONFIG = {
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'tv-2',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
+          name: 'Disney+',
           link: 'https://www.linkedin.com',
         },
         {
-          name: 'Dribbble',
+          name: 'Netflix',
           link: 'https://www.dribbble.com',
         },
         {
-          name: 'Trello',
+          name: 'Prime Video',
           link: 'https://www.trello.com',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'ph',
+          link: '',
         },
       ],
     },
